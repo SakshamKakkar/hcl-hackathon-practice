@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+factory.db
+failure_model.joblib
+.venv/
+.pytest_cache/
