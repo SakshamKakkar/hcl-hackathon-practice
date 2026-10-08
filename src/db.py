@@ -9,7 +9,8 @@ from pathlib import Path                # file paths that work on Windows, Mac a
 import pandas as pd                     # read CSVs and write tables into the database
 
 ROOT = Path(__file__).resolve().parent.parent      # project root folder (src/ -> its parent)
-DATA_DIR = ROOT / "data"                           # where the CSV files live
+DATA_DIR = ROOT / "data" 
+                          # where the CSV files live
 DB_PATH = ROOT / "factory.db"                      # the SQLite database file we create
 
 
